@@ -1,12 +1,8 @@
 {
+  "buildCommand": "bun run build",
+  "installCommand": "bun install",
+  "framework": null,
   "github": {
     "silent": true
-  },
-  "builds": [
-    {
-      "src": "apps/nextjs/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": []
+  }
 }
